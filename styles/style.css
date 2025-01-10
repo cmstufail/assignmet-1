@@ -77,6 +77,18 @@ body {
   transition: .5s;
   position: absolute;
 }
+.btn-secondary {
+  background: #5490F5;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 18px;
+  color: white;
+  border: none;
+  transition: .5s;
+  position: absolute;
+}
+
+
 .btn-primary:hover {
   background: transparent;
   color: black;
@@ -91,6 +103,13 @@ body {
   font-size: 40px;
   color: #0E0E0E;
 }
+
+.section-description {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 15px;
+  margin-top: -12px;
+}
+
 
 
 /* nav styles */
@@ -195,16 +214,103 @@ nav .nav-btn:hover {
   margin-top: 32px;
 }
 
-.pillars .card .card-title {
+.pillars .card .card-title, .future-vision-card .card-title {
   color: rgba(14, 14, 14, 0.8);
   font-size: 17px;
 }
-.pillars .card .card-description {
+.pillars .card .card-description, .future-vision-card .card-description {
   color: rgba(14, 14, 14, 0.7);
   font-size: 15px;
   margin-top: -12px;
 }
 
+/* future vision style */
+
+.future-vision {
+  margin: 0 160px;
+  margin-top: 80px;
+}
+
+.future-vision .future-vision-cards {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 50px;
+}
+
+.future-vision .future-vision-cards .future-vision-card {
+  border-radius: 16px;
+  max-width: 410px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: center;
+  padding: 0px 32px 32px 32px;
+}
+
+.card-1 {
+  background: rgba(84, 144, 245, 0.2);
+  border: 1px solid rgba(84, 144, 245, 1);
+}
+
+
+.card-2 {
+   background: rgba(198, 228, 214, 1);
+  border: 1px solid rgba(9, 161, 92, 1);
+}
+
+.card-1 button, .card-2 button, .card-3 button {
+  font-size: 16px;
+}
+
+.card-2 button {
+   background: rgba(9, 161, 92, 1);
+}
+
+.card-1 button:hover, .card-2 button:hover, .card-3 button:hover {
+   background: transparent ;
+   border: 1px solid black;
+   color: black;
+}
+
+.card-3 {
+   background: rgba(247, 235, 207, 1);
+  border: 1px solid rgba(255, 194, 57, 1);
+}
+
+.card-3 button {
+   background: rgba(255, 194, 57, 1);
+}
+
+.future-vision .section-title {
+  margin-bottom: 24px;
+}
+.future-vision .section-description {
+  margin-bottom: 32px;
+}
+
+.commit-img {
+  width: 45px;
+  margin-bottom: -18px;
+}
+
+.commitment-message {
+  min-height: 150px;
+  background: white;
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  padding: 45px 24px;
+}
+
+.commit-title{
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+commit-description {
+  color: rgba(14, 14, 14, 0.6);
+}
 
 
 
