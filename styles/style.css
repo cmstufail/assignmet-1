@@ -4,14 +4,12 @@
 }
 
 body {
-  background: #F1F1F3;
+  background: #f1f1f3;
 }
-
 
 /* shared styles */
 
 /* google fonts */
-
 
 .fira-sans-thin {
   font-family: "Fira Sans", serif;
@@ -68,31 +66,30 @@ body {
 }
 
 .btn-primary {
-  background: #006A50;
+  background: #006a50;
   padding: 15px 30px;
   border-radius: 8px;
   font-size: 18px;
   color: white;
   border: none;
-  transition: .5s;
+  transition: 0.5s;
   position: absolute;
 }
 .btn-secondary {
-  background: #5490F5;
+  background: #5490f5;
   padding: 10px 20px;
   border-radius: 8px;
   font-size: 18px;
   color: white;
   border: none;
-  transition: .5s;
+  transition: 0.5s;
   position: absolute;
 }
-
 
 .btn-primary:hover {
   background: transparent;
   color: black;
-  border: 1px solid;  
+  border: 1px solid;
 }
 
 .text-center {
@@ -101,7 +98,7 @@ body {
 
 .section-title {
   font-size: 40px;
-  color: #0E0E0E;
+  color: #0e0e0e;
 }
 
 .section-description {
@@ -110,12 +107,9 @@ body {
   margin-top: -12px;
 }
 
-
-
 /* nav styles */
 
 header {
-  
   margin: 0 160px;
 }
 
@@ -127,7 +121,7 @@ nav {
 }
 
 nav h3 {
-  color: #0E0E0E;
+  color: #0e0e0e;
   font-size: 32px;
 }
 
@@ -136,13 +130,13 @@ nav h3 {
   padding: 15px 30px;
   border-radius: 8px;
   font-size: 18px;
-  color: #006A50;
-  border: 1px solid #006A50;
-  transition: .5s;
+  color: #006a50;
+  border: 1px solid #006a50;
+  transition: 0.5s;
 }
 
 nav .nav-btn:hover {
-  background: #C6E4D6;
+  background: #c6e4d6;
   color: black;
   border: 1px solid black;
 }
@@ -150,14 +144,14 @@ nav .nav-btn:hover {
 /* banner part */
 
 .banner {
-  background: #C6E4D6;
+  background: #c6e4d6;
   display: flex;
   justify-content: space-around;
   align-items: center;
   max-width: 1280px;
   height: 560px;
   margin-bottom: 80px;
-  border-radius: 24px;  
+  border-radius: 24px;
   gap: 0;
 }
 
@@ -196,7 +190,7 @@ nav .nav-btn:hover {
   gap: 24px;
 }
 
-.pillars .pillars-cards img{
+.pillars .pillars-cards img {
   width: 55px;
   height: 55px;
 }
@@ -214,11 +208,13 @@ nav .nav-btn:hover {
   margin-top: 32px;
 }
 
-.pillars .card .card-title, .future-vision-card .card-title {
+.pillars .card .card-title,
+.future-vision-card .card-title {
   color: rgba(14, 14, 14, 0.8);
   font-size: 17px;
 }
-.pillars .card .card-description, .future-vision-card .card-description {
+.pillars .card .card-description,
+.future-vision-card .card-description {
   color: rgba(14, 14, 14, 0.7);
   font-size: 15px;
   margin-top: -12px;
@@ -253,33 +249,36 @@ nav .nav-btn:hover {
   border: 1px solid rgba(84, 144, 245, 1);
 }
 
-
 .card-2 {
-   background: rgba(198, 228, 214, 1);
+  background: rgba(198, 228, 214, 1);
   border: 1px solid rgba(9, 161, 92, 1);
 }
 
-.card-1 button, .card-2 button, .card-3 button {
+.card-1 button,
+.card-2 button,
+.card-3 button {
   font-size: 16px;
 }
 
 .card-2 button {
-   background: rgba(9, 161, 92, 1);
+  background: rgba(9, 161, 92, 1);
 }
 
-.card-1 button:hover, .card-2 button:hover, .card-3 button:hover {
-   background: transparent ;
-   border: 1px solid black;
-   color: black;
+.card-1 button:hover,
+.card-2 button:hover,
+.card-3 button:hover {
+  background: transparent;
+  border: 1px solid black;
+  color: black;
 }
 
 .card-3 {
-   background: rgba(247, 235, 207, 1);
+  background: rgba(247, 235, 207, 1);
   border: 1px solid rgba(255, 194, 57, 1);
 }
 
 .card-3 button {
-   background: rgba(255, 194, 57, 1);
+  background: rgba(255, 194, 57, 1);
 }
 
 .future-vision .section-title {
@@ -302,7 +301,7 @@ nav .nav-btn:hover {
   padding: 45px 24px;
 }
 
-.commit-title{
+.commit-title {
   color: rgba(14, 14, 14, 0.8);
   font-size: 16px;
   margin-bottom: 4px;
@@ -311,7 +310,6 @@ nav .nav-btn:hover {
 commit-description {
   color: rgba(14, 14, 14, 0.6);
 }
-
 
 /* Your opinio matters style */
 .opinion-matters {
@@ -327,16 +325,16 @@ commit-description {
   border-radius: 16px;
 }
 
-table, td {
+table,
+td {
   border: 1px solid rgba(213, 214, 216, 1);
   border-collapse: collapse;
   padding: 20px;
   width: 100%;
 }
 
-
 thead {
-  background: #C6E4D6;
+  background: #c6e4d6;
 }
 
 thead td .span {
@@ -344,7 +342,7 @@ thead td .span {
 }
 
 table select {
-  background: #C6E4D6;
+  background: #c6e4d6;
   padding: 10px;
   border-radius: 8px;
 }
@@ -372,7 +370,7 @@ table select {
   background: white;
   display: flex;
   justify-content: center;
-  gap: 24px;  
+  gap: 24px;
   padding: 48px;
   border-radius: 24px;
 }
@@ -409,10 +407,15 @@ table select {
 }
 
 .recent-news-card button {
-  background: #006A50;
+  background: #006a50;
   margin-top: 32px;
 }
 
+.recent-news-card button:hover {
+  background: transparent;
+  border: 1px solid black;
+  color: black;
+}
 
 /* donate section */
 
@@ -424,12 +427,11 @@ table select {
   text-align: center;
 }
 
-
-.donate-section .section-title{
+.donate-section .section-title {
   margin-bottom: 24px;
 }
 
-.donate-section .section-description{
+.donate-section .section-description {
   margin-bottom: 32px;
 }
 
@@ -438,7 +440,6 @@ table select {
   gap: 24px;
 }
 
-
 .donate-card {
   padding: 40px;
   background: white;
@@ -446,7 +447,7 @@ table select {
   border-radius: 16px;
 }
 
-.second-card{
+.second-card {
   background: rgba(198, 228, 214, 1);
 }
 
@@ -474,7 +475,7 @@ input {
 }
 
 .btn {
-  background: #006A50;
+  background: #006a50;
   color: white;
   font-size: 16px;
   padding: 14px 30px;
@@ -488,4 +489,51 @@ input {
   border: 1px solid black;
 }
 
+/* newsletter style */
 
+.newsletter-section{
+  background: #C6E4D6;
+  margin-top: 80px;
+  margin: 80px 165px;
+  padding: 80px 0px;
+  border-radius: 24px;
+
+}
+
+.newsletter-section .section-title{
+  margin-bottom: 24px;
+}
+
+.input-box {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 800px;
+
+}
+
+.newsletter-section input[type='email']{
+  padding: 0 20px;  
+  border-radius: 8px 0px 8px 8px;
+}
+
+ .newsletter-section input[type='text'] {  
+  width: 10%;
+  background: rgba(0, 106, 80, 1);
+  border-radius: 0px 8px 8px 0px;
+  padding: 13px 5px;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+}
+
+ .newsletter-section input[type='text']:hover {
+  background: transparent;
+  border: 1px solid black;
+  color: black;
+ }
+
+.newsletter-section .section-info {
+  margin-top: 20px;
+  color: rgba(14, 14, 14, 0.7);
+}
