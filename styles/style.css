@@ -7,6 +7,7 @@ body {
   background: #f1f1f3;
 }
 
+
 /* shared styles */
 
 /* google fonts */
@@ -76,6 +77,8 @@ body {
   transition: 0.5s;
   position: absolute;
 }
+
+
 .btn-secondary {
   background: #5490f5;
   padding: 10px 20px;
@@ -91,6 +94,8 @@ body {
   background: transparent;
   color: black;
   border: 1px solid;
+  padding: 15px 30px;
+  cursor: pointer;
 }
 
 .text-center {
@@ -140,6 +145,11 @@ nav .nav-btn:hover {
   background: #c6e4d6;
   color: black;
   border: 1px solid black;
+  cursor: pointer;
+}
+
+main section {
+  margin: 80px 160px;
 }
 
 /* banner part */
@@ -182,11 +192,6 @@ nav .nav-btn:hover {
 }
 
 /* pillars style */
-.pillars {
-  margin: 0 160px;
-  max-width: 1280px;
-}
-
 .pillars-cards {
   display: flex;
   gap: 24px;
@@ -223,12 +228,6 @@ nav .nav-btn:hover {
 }
 
 /* future vision style */
-
-.future-vision {
-  margin: 0 160px;
-  margin-top: 80px;
-}
-
 .future-vision .future-vision-cards {
   display: flex;
   gap: 24px;
@@ -272,6 +271,7 @@ nav .nav-btn:hover {
   background: transparent;
   border: 1px solid black;
   color: black;
+  cursor: pointer;
 }
 
 .card-3 {
@@ -314,12 +314,6 @@ commit-description {
 }
 
 /* Your opinio matters style */
-.opinion-matters {
-  margin: 0 160px;
-  margin-top: 80px;
-  width: 1200px;
-}
-
 .table-container {
   background: white;
   padding: 24px;
@@ -348,12 +342,16 @@ table select {
   padding: 10px;
   border-radius: 8px;
 }
+table select:hover {
+  background: transparent;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
 
 /* news section style */
 
 .recent-news {
-  margin: 0 160px;
-  margin-top: 80px;
   width: 1200px;
 }
 
@@ -417,13 +415,12 @@ table select {
   background: transparent;
   border: 1px solid black;
   color: black;
+  cursor: pointer;
 }
 
 /* donate section */
 
 .donate-section {
-  margin: 0 160px;
-  margin-top: 80px;
   width: 1200px;
   height: 400px;
   text-align: center;
@@ -455,6 +452,7 @@ table select {
 
 .donate-card:hover {
   background: rgba(198, 228, 214, 1);
+  cursor: pointer;
 }
 
 .donate-card .section-title {
@@ -489,20 +487,21 @@ input {
   background: transparent;
   color: black;
   border: 1px solid black;
+  cursor: pointer;
+  border-radius: 8px;
 }
 
 /* newsletter style */
 
-.newsletter-section{
-  background: #C6E4D6;
+.newsletter-section {
+  background: #c6e4d6;
   margin-top: 80px;
   margin: 80px 165px;
   padding: 80px 0px;
   border-radius: 24px;
-
 }
 
-.newsletter-section .section-title{
+.newsletter-section .section-title {
   margin-bottom: 24px;
 }
 
@@ -511,15 +510,14 @@ input {
   justify-content: center;
   margin: 0 auto;
   width: 800px;
-
 }
 
-.newsletter-section input[type='email']{
-  padding: 0 20px;  
-  border-radius: 8px 0px 8px 8px;
+.newsletter-section input[type="email"] {
+  padding: 0 20px;
+  border-radius: 8px 0px 0px 8px;
 }
 
- .newsletter-section input[type='text'] {  
+.newsletter-section input[type="text"] {
   width: 10%;
   background: rgba(0, 106, 80, 1);
   border-radius: 0px 8px 8px 0px;
@@ -529,11 +527,12 @@ input {
   font-size: 16px;
 }
 
- .newsletter-section input[type='text']:hover {
+.newsletter-section input[type="text"]:hover {
   background: transparent;
   border: 1px solid black;
   color: black;
- }
+  cursor: pointer;
+}
 
 .newsletter-section .section-info {
   margin-top: 20px;
@@ -541,16 +540,21 @@ input {
 }
 
 /* footer styles */
-
 .footer-section {
   margin: 50px 0px;
+  background: white;
+  padding: 50px 0px;
 }
 .footer-section .section-title {
   margin-bottom: 20px;
   font-size: 30px;
 }
 
-
+.footer-section hr {
+  width: 1000px;
+  border: 1px solid rgba(14, 14, 14, 0.1);
+  margin: 32px auto;
+}
 
 .footer-section .social-icons a img {
   width: 22px;
