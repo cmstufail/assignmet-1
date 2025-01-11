@@ -64,6 +64,7 @@ body {
   font-weight: 900;
   font-style: normal;
 }
+/* google fonts styles end */
 
 .btn-primary {
   background: #006a50;
@@ -110,7 +111,7 @@ body {
 /* nav styles */
 
 header {
-  margin: 0 160px;
+  margin: 15px 160px;
 }
 
 nav {
@@ -183,11 +184,13 @@ nav .nav-btn:hover {
 /* pillars style */
 .pillars {
   margin: 0 160px;
+  max-width: 1280px;
 }
 
 .pillars-cards {
   display: flex;
   gap: 24px;
+  width: 100%;
 }
 
 .pillars .pillars-cards img {
@@ -200,10 +203,9 @@ nav .nav-btn:hover {
   flex-direction: column;
   justify-content: center;
   gap: 24px;
-  padding: 24px;
+  padding: 20px;
   background: white;
   width: 300px;
-  min-height: 240px;
   border-radius: 16px;
   margin-top: 32px;
 }
@@ -536,4 +538,22 @@ input {
 .newsletter-section .section-info {
   margin-top: 20px;
   color: rgba(14, 14, 14, 0.7);
+}
+
+/* footer styles */
+
+.footer-section {
+  margin: 50px 0px;
+}
+.footer-section .section-title {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+
+
+.footer-section .social-icons a img {
+  width: 22px;
+  height: 22px;
+  margin-right: 15px;
 }
